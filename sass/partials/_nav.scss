@@ -1,0 +1,70 @@
+.navbar {
+    background-color: $colour-bg-header !important;
+    color: $colour-primary;
+    padding: 25px;
+
+    @media (min-width: $tablet-width) {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+
+
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    color: $colour-primary !important;
+    margin-right: 60px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-item {
+    margin-left: -25px;
+    margin-right: -25px;
+    padding: 5px 25px;
+
+    @media (min-width: $tablet-width) {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $colour-font-header;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+
+    padding: 6px 17px;
+
+    @media (min-width: $tablet-width) {
+        padding: 0;
+    }
+}
+
+.navbar-nav .nav-link,
+.navbar-light .navbar-nav .active>.nav-link {
+    color: $colour-font-header;
+}
+
+.navbar-collapse {
+    z-index: 1;
+    margin-top: 23px !important;
+
+    @media (min-width: $tablet-width) {
+        margin-top: 0 !important;
+    }
+}
+
+
+
+.navbar-expand-lg .navbar-nav .active {
+    background: white;
+    border-radius: 3px;
+}
+
+
+
+
